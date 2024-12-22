@@ -1,5 +1,5 @@
 name: Sync to Hugging Face hub
-on: push
+on:
   push:
     branches: [main]
 
@@ -21,3 +21,5 @@ jobs:
         env:
           HF: ${{ secrets.HF }}
         run: git push --force https://albanisyahril:$HF@huggingface.co/spaces/albanisyahril/demo-trash-classification main
+
+        name: Sync to Hugging Face hub
