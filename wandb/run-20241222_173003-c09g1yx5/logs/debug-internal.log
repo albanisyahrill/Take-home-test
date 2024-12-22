@@ -1,0 +1,17 @@
+{"time":"2024-12-22T17:30:03.6523486+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-22T17:30:03.6523486+07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\aton\\Downloads\\Take Home Test\\wandb\\run-20241222_173003-c09g1yx5\\logs\\debug-core.log"}
+{"time":"2024-12-22T17:30:03.7692072+07:00","level":"INFO","msg":"created new stream","id":"c09g1yx5"}
+{"time":"2024-12-22T17:30:03.7697972+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"c09g1yx5"}
+{"time":"2024-12-22T17:30:03.7697972+07:00","level":"INFO","msg":"stream: started","id":"c09g1yx5"}
+{"time":"2024-12-22T17:30:03.7697972+07:00","level":"INFO","msg":"handler: started","stream_id":"c09g1yx5"}
+{"time":"2024-12-22T17:30:03.7697972+07:00","level":"INFO","msg":"sender: started","stream_id":"c09g1yx5"}
+{"time":"2024-12-22T17:30:04.4783347+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-22T17:30:05.3126134+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-22T17:30:05.3131243+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-22T17:30:06.3269759+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact trash-classification","runtime_seconds":1.0168981},{"desc":"uploading config.yaml","runtime_seconds":0.2736237,"progress":"521B/521B"},{"desc":"uploading output.log","runtime_seconds":0.2736237,"progress":"31B/31B"}],"total_operations":3}}
+{"time":"2024-12-22T17:30:28.3789079+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-22T17:30:29.7308765+07:00","level":"INFO","msg":"stream: closing","id":"c09g1yx5"}
+{"time":"2024-12-22T17:30:29.7308765+07:00","level":"INFO","msg":"handler: closed","stream_id":"c09g1yx5"}
+{"time":"2024-12-22T17:30:29.7308765+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"c09g1yx5"}
+{"time":"2024-12-22T17:30:29.7308765+07:00","level":"INFO","msg":"sender: closed","stream_id":"c09g1yx5"}
+{"time":"2024-12-22T17:30:29.7308765+07:00","level":"INFO","msg":"stream: closed","id":"c09g1yx5"}

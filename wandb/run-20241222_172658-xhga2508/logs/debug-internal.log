@@ -1,0 +1,17 @@
+{"time":"2024-12-22T17:26:58.7117333+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-22T17:26:58.7117869+07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\aton\\Downloads\\Take Home Test\\wandb\\run-20241222_172658-xhga2508\\logs\\debug-core.log"}
+{"time":"2024-12-22T17:26:58.8280454+07:00","level":"INFO","msg":"created new stream","id":"xhga2508"}
+{"time":"2024-12-22T17:26:58.8280454+07:00","level":"INFO","msg":"stream: started","id":"xhga2508"}
+{"time":"2024-12-22T17:26:58.8280454+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"xhga2508"}
+{"time":"2024-12-22T17:26:58.8280454+07:00","level":"INFO","msg":"sender: started","stream_id":"xhga2508"}
+{"time":"2024-12-22T17:26:58.8280454+07:00","level":"INFO","msg":"handler: started","stream_id":"xhga2508"}
+{"time":"2024-12-22T17:26:59.2520808+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-22T17:26:59.3412412+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-22T17:26:59.3428393+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-22T17:27:00.3451378+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.0863495,"progress":"24B/24B"}],"total_operations":1}}
+{"time":"2024-12-22T17:27:00.8639416+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-22T17:27:02.2745914+07:00","level":"INFO","msg":"stream: closing","id":"xhga2508"}
+{"time":"2024-12-22T17:27:02.2745914+07:00","level":"INFO","msg":"handler: closed","stream_id":"xhga2508"}
+{"time":"2024-12-22T17:27:02.2745914+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xhga2508"}
+{"time":"2024-12-22T17:27:02.2745914+07:00","level":"INFO","msg":"sender: closed","stream_id":"xhga2508"}
+{"time":"2024-12-22T17:27:02.2745914+07:00","level":"INFO","msg":"stream: closed","id":"xhga2508"}

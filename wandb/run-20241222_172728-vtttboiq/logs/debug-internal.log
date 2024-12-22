@@ -1,0 +1,17 @@
+{"time":"2024-12-22T17:27:28.3260518+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-22T17:27:28.3260518+07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\aton\\Downloads\\Take Home Test\\wandb\\run-20241222_172728-vtttboiq\\logs\\debug-core.log"}
+{"time":"2024-12-22T17:27:28.4408408+07:00","level":"INFO","msg":"created new stream","id":"vtttboiq"}
+{"time":"2024-12-22T17:27:28.4408408+07:00","level":"INFO","msg":"stream: started","id":"vtttboiq"}
+{"time":"2024-12-22T17:27:28.4408408+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"vtttboiq"}
+{"time":"2024-12-22T17:27:28.4408408+07:00","level":"INFO","msg":"handler: started","stream_id":"vtttboiq"}
+{"time":"2024-12-22T17:27:28.4408408+07:00","level":"INFO","msg":"sender: started","stream_id":"vtttboiq"}
+{"time":"2024-12-22T17:27:29.1747626+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-22T17:27:29.8806209+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-22T17:27:29.8812252+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-22T17:27:30.8947178+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-name","runtime_seconds":1.0168006}],"total_operations":1}}
+{"time":"2024-12-22T17:27:52.6601568+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-22T17:27:54.0108397+07:00","level":"INFO","msg":"stream: closing","id":"vtttboiq"}
+{"time":"2024-12-22T17:27:54.0108397+07:00","level":"INFO","msg":"handler: closed","stream_id":"vtttboiq"}
+{"time":"2024-12-22T17:27:54.0108397+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vtttboiq"}
+{"time":"2024-12-22T17:27:54.0108397+07:00","level":"INFO","msg":"sender: closed","stream_id":"vtttboiq"}
+{"time":"2024-12-22T17:27:54.012412+07:00","level":"INFO","msg":"stream: closed","id":"vtttboiq"}

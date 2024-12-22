@@ -1,0 +1,18 @@
+{"time":"2024-12-22T17:21:42.0434058+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-22T17:21:42.0434058+07:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\aton\\Downloads\\Take Home Test\\wandb\\run-20241222_172142-fbtvw2uq\\logs\\debug-core.log"}
+{"time":"2024-12-22T17:21:42.357905+07:00","level":"INFO","msg":"created new stream","id":"fbtvw2uq"}
+{"time":"2024-12-22T17:21:42.357905+07:00","level":"INFO","msg":"stream: started","id":"fbtvw2uq"}
+{"time":"2024-12-22T17:21:42.357905+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"fbtvw2uq"}
+{"time":"2024-12-22T17:21:42.357905+07:00","level":"INFO","msg":"handler: started","stream_id":"fbtvw2uq"}
+{"time":"2024-12-22T17:21:42.357905+07:00","level":"INFO","msg":"sender: started","stream_id":"fbtvw2uq"}
+{"time":"2024-12-22T17:21:42.6677773+07:00","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-12-22T17:21:42.6677773+07:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403 Forbidden: {\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2024-12-22T17:21:42.679973+07:00","level":"INFO","msg":"stream: closing","id":"fbtvw2uq"}
+{"time":"2024-12-22T17:21:42.679973+07:00","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2024-12-22T17:21:42.95661+07:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-12-22T17:21:42.95661+07:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project albanisyahril123/trash-classification not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2024-12-22T17:21:42.9576825+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-22T17:21:42.9576825+07:00","level":"INFO","msg":"handler: closed","stream_id":"fbtvw2uq"}
+{"time":"2024-12-22T17:21:42.9576825+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fbtvw2uq"}
+{"time":"2024-12-22T17:21:42.9576825+07:00","level":"INFO","msg":"sender: closed","stream_id":"fbtvw2uq"}
+{"time":"2024-12-22T17:21:42.9576825+07:00","level":"INFO","msg":"stream: closed","id":"fbtvw2uq"}

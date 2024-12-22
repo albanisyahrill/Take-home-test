@@ -1,0 +1,38 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "CPython 3.11.9",
+  "startedAt": "2024-12-22T10:27:28.323237Z",
+  "program": "C:\\Users\\aton\\Downloads\\Take Home Test\\Deploy\\wandb_deployment.py",
+  "codePath": "Deploy\\wandb_deployment.py",
+  "email": "albanisyahril123@gmail.com",
+  "root": "C:\\Users\\aton\\Downloads\\Take Home Test",
+  "host": "LenovoAton",
+  "executable": "C:\\Users\\aton\\Downloads\\Take Home Test\\myenv\\Scripts\\python.exe",
+  "codePathLocal": "Deploy\\wandb_deployment.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce GTX 1660 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "510542213120",
+      "used": "420391432192"
+    }
+  },
+  "memory": {
+    "total": "16505966592"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 16
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce GTX 1660 Ti",
+      "memoryTotal": "6442450944",
+      "cudaCores": 1536,
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "12.6"
+}
