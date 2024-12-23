@@ -30,7 +30,6 @@ jobs:
           HG: ${{ secrets.HG }}
         run: |
           git lfs track "*.h5" "*.keras"
-          git add .gitattributes
           git add Deploy/Model/model.h5
           git add Deploy/Model/model.keras
           git commit -m "Track large files with Git LFS"
