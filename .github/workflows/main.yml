@@ -13,6 +13,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+      
       - name: Add remote 
         env:
           HF: ${{ secrets.HF }}
@@ -20,4 +21,4 @@ jobs:
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}
-        run: git push --force https://$HF@huggingface.co/spaces/albanisyahril/demo-trash-classification main
+        run: git push --force https://albanisyahril:$HF@huggingface.co/spaces/albanisyahril/demo-trash-classification main
