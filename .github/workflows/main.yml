@@ -31,5 +31,7 @@ jobs:
         run: |
           git lfs track "*.h5" "*.keras"
           git add .gitattributes
-          git commit -m "Track large files"
+          git add Deploy/Model/model.h5
+          git add Deploy/Model/model.keras
+          git commit -m "Track large files with Git LFS"
           git push --force "https://albanisyahril:${HG}@huggingface.co/spaces/albanisyahril/demo-trash-classification" main
