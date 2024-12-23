@@ -19,9 +19,9 @@ jobs:
           git config --global user.name "albanisyahril"
       - name: Add remote 
         env:
-          HF: ${{ secrets.HF }}
+          HF: ${{ secrets.HG }}
         run: git remote set-url origin https://$HF@huggingface.co/spaces/albanisyahril/demo-trash-classification
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}
-        run: git push --force "https://albanisyahril:${HF_TOKEN}@huggingface.co/spaces/albanisyahril/demo-trash-classification" main
+        run: git push --force "https://albanisyahril:${HF}@huggingface.co/spaces/albanisyahril/demo-trash-classification" main
