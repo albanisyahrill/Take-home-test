@@ -20,8 +20,10 @@ jobs:
       - name: Add remote 
         env:
           HF: ${{ secrets.HF }}
-        run: git remote set-url origin https://$HF@huggingface.co/spaces/albanisyahril/demo-trash-classification
+        run: |
+          git remote set-url origin https://$HF@huggingface.co/spaces/albanisyahril/demo-trash-classification
+          git pull origin
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}
-        run: git push --force https://albanisyahril:$HF@huggingface.co/spaces/albanisyahril/demo-trash-classification main
+        run: git push --force https://$HF@huggingface.co/spaces/albanisyahril/demo-trash-classification main
