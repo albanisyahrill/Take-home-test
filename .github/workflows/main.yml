@@ -21,7 +21,15 @@ jobs:
         env:
           HG: ${{ secrets.HG }}
         run: git remote set-url origin https://$HG@huggingface.co/spaces/albanisyahril/demo-trash-classification
+      - name: Install Git LFS
+        run: |
+          sudo apt-get install git-lfs
+          git lfs install
       - name: Push to hub
         env:
           HG: ${{ secrets.HG }}
-        run: git push --force "https://albanisyahril:${HG}@huggingface.co/spaces/albanisyahril/demo-trash-classification" main
+        run: |
+          git lfs track "*.h5" "*.keras"
+          git add .gitattributes
+          git commit -m "Track large files"
+          git push --force "https://albanisyahril:${HG}@huggingface.co/spaces/albanisyahril/demo-trash-classification" main
